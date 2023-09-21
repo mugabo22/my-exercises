@@ -1,3 +1,5 @@
+
+
 average=int(input("Whats your average: "))
 if average >80:
     print("excellent")
@@ -76,7 +78,7 @@ def my_shop():
      print(f"you are welcome {name}")
 my_shop()
   
-
+# understanding 'and' operator
 def my_fun():
    num1=int(input("enter number one..\n"))
    num2=int(input("enter number two.\n"))
@@ -113,6 +115,3 @@ goat2=[x for x in goat1 if x != "messi"]
 print(goat2)
 print(goat3)
 print(goat4)
-
-   
-
