@@ -48,6 +48,49 @@ def laliga():
     print("6.Girona vs Bilbo")
     print("7.Getafe vs Celta vigo")
     
+def nba():
+    print("Choose from these matches below")
+    print('1.newyork knicks @ sixers')
+    print('2.minesota tw @ Grizzlies')
+    print('3.oklahoma thunder @ phoenix suns')
+    print("4.chicago bulls @ newyork bucks")
+    print('5.Golden state warriors vs LA lakers')
+    print('6.Boston celtics @ Milwaukee bucks')
+    print('7.Denver nuggets @ Brooklyn nets')
+    print('8.Detroit Pistons @ scramento kings')
+
+
+def nets():
+    print('1.london jacks vs pillamids')
+    print('2.newcastle utd vs lingham house')
+    print('3.Redbull thunder vs Oldham ruplies')
+    print("4.Brighton bulls vs St.millen netters")
+    print('5.Swindon warriors vs manchester city')
+    print('6.jetblue bells vs suncity ')
+    print('7.Denver nuggets vs grazes dasion')
+    print('8.Piemon Surfs vs tula kings')
+     
+def rugy():    
+    print('1.london jacks ft pillamids')
+    print('2.newcastle utd  ft  lingham house')
+    print('3.Redbull thunder ft Oldham ruplies')
+    print("4.Brighton bulls ft St.millen netters")
+    print('5.Swindon warriors ft manchester city')
+    print('6.jetblue bells ft suncity ')
+    print('7.Denver nuggets ft grazes dasion')
+    print('8.Piemon Surfs ft tula kings')
+    
+def uba():
+    print("Choose from these matches below")
+    print('1.london jacks @ pillamids')
+    print('2.newcastle utd  @  lingham house')
+    print('3.Redbull thunder @ Oldham ruplies')
+    print("4.Brighton bulls @ St.millen netters")
+    print('5.Swindon warriors vs manchester city')
+    print('6.jetblue bells @ suncity ')
+    print('7.Denver nuggets @ grazes dasion')
+    print('8.Piemon Surfs @ tula kings')
+    
 def bundesliga():
     print("1.Bayer munich vs wolfsburg")
     print("2.Salzburg vs Leipzig")
@@ -56,8 +99,38 @@ def bundesliga():
     print("5.Koln vs Hoffeinham")
     print("6.Muchengladburch vs Bremen")
     print("7.Frunkfurt vs mainz")
+    
+"""creating odds that calculate the win amount"""
+list=[]
+def my_league():
+    print('Mancity vs wolves')
+    print(1.23,3.00,12.0)
+    winner=input("who is to win: ")
+    staked=int(input("Stake: "))
+
+    if winner=='mancity':
+        wining=staked * 1.23
+        print(f"your winings are shs.{wining}")   
+    elif winner=='wolves':
+        wining=staked * 12.0
+        print(f"your winnings are shs.{wining}")
+    else:
+        winings=staked * 3.00
+        print(f"your winnings are shs.{winings}")    
+
+print('www.betkiwa.17625//2.com.ug')
+print("Already have an account,if no please signup")
+signup=input("Enter your names: ")
+contact=int(input("Mobile number: "))
+age=int(input("How old are you: "))
+if age <18:
+    print('No under age gumbling')
+else:
+    print("Bet responsively,and betting is addictive,take note..")
+print(f"You are very welcome {signup} to Betkiwa Uganda..")
+print("\n THANKS FOR CHOOSING BETKIWA,NICE TIME WITH US")   
 print("YOU ARE WELCOME TO BETKIWA COMPANY UGANDA")   
-print('Choose what you would like to bet about!!!')
+print('\n Choose what you would like to bet about!!!')
 while True:
     print("\n MENU.......")
     print("1.Football")
@@ -65,47 +138,80 @@ while True:
     print("3.Netball")
     print("4.Rugby")
     
-    my_bet=input("Choose here: ")
+    my_bet=input("\n Choose here: ")
     
     if my_bet=="1":
-        print("choose from these leagues")
+        print("\n choose from these leagues") 
         my_ball()
-        break
+        choice=input("\nWhats your choice: ")
+        if choice=="1":
+            print("Bet on the following games to stand and win prizes")
+            premier()
+            one=input("Match: ")
+            if one=='1':
+                my_league()
+                break
+        elif choice=="2":
+            print("Bet on the following games to stand and win prizes")
+            laliga()
+            break
+        elif choice=="3":
+            print("Bet on the following games to stand and win prizes")
+            serie()
+            break
+        elif choice=="4":
+            print("Bet on the following games to stand and win prizes")
+            bundesliga()
+            break
+        choice=input("Which match are you betting: ")
     elif my_bet=="2":
         print("choose from these leagues below")
         baske()
-        break
+        choice=input("\n Choose: ")
+        if choice=='1':
+            print("\n Bet on the following")
+            nba()
+            break
+        elif choice=='2':
+            print("\n Bet on the following")
+            uba()
+            break
     elif my_bet=="3":
         print("Choose from these leagues")
         net()
-        break
+        choice=input("Choose: ")
+        if choice=='1':
+            print("\n Bet among these netball leagues!!!")
+            nets()
+            break
+        elif choice=='2':
+            print("\n Bet among these netball leagues!!!")
+            nets()
+            break
     elif my_bet=="4":
         print("choose from these leagues")
         rug()
-        break
+        choice=input("Choose: ")
+        if choice=='1':
+            print("\n Bet among these rugby leagues!!!")
+            rugy()
+            break
+        elif choice=='2':
+            print("\n Bet among these rugby leagues!!!")
+            rugy()
+            break
+        elif choice=='3':
+            print("\n Bet among these rugby leagues!!!")
+            rugy()
+            break
     else:
         print("invalid input")
-choice=input("Whats your choice: ")
+        break
 
-while True:
-    if choice=="1":
-        print("Bet on the following games to stand and win prizes")
-        premier()
-        break
-    elif choice=="2":
-        print("Bet on the following games to stand and win prizes")
-        laliga()
-        break
-    elif choice=="3":
-        print("Bet on the following games to stand and win prizes")
-        serie()
-        break
-    elif choice=="4":
-        print("Bet on the following games to stand and win prizes")
-        bundesliga()
-        break
-    else:
-        print("Invalid input please choose from (1/2/3/4)")
+
+
+
+
      
         
     
