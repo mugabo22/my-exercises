@@ -1,80 +1,22 @@
+from extent2 import mine
+import time
 
-    
-"""creating odds that calculate the win amount"""
-list=[]
-staked=()
-def my_league1():
-    print('Mancity vs wolves')
-    print(1.23,3.00,12.0)
-    winner=input("who is to win: ")
-
-    if winner=='mancity':
-        wining=staked * 1.23
-        print(f"your winings are shs.{wining}")   
-    elif winner=='wolves':
-        wining=staked * 12.0
-        print(f"your winnings are shs.{wining}")
-    else:
-        winings=staked * 3.00
-        print(f"your winnings are shs.{winings}")
-
-def my_league2():
-    print('liverpool vs arsenal')
-    print(1.23,3.00,12.0)
-    winner=input("who is to win: ")
-
-    if winner=='mancity':
-        wining=staked * 1.23
-        print(f"your winings are shs.{wining}")   
-    elif winner=='wolves':
-        wining=staked * 12.0
-        print(f"your winnings are shs.{wining}")
-    else:
-        winings=staked * 3.00
-        print(f"your winnings are shs.{winings}")
-        
-def my_league3():
-    print('chelsea vs nottingham')
-    print(1.23,3.00,12.0)
-    winner=input("who is to win: ")
-    if winner=='chelsea':
-        wining=staked * 1.23
-        print(f"your winings are shs.{wining}")   
-    elif winner=='notingham':
-        wining=staked * 12.0
-        print(f"your winnings are shs.{wining}")
-    else:
-        winings=staked * 3.00
-        print(f"your winnings are shs.{winings}")
-def my_league4():
-    print('spurs vs brentford')
-    print(1.23,3.00,12.0)
-    winner=input("who is to win: ")
-
-    if winner=='spurs':
-        wining=staked * 1.23
-        print(f"your winings are shs.{wining}")   
-    elif winner=='brentford':
-        wining=staked * 12.0
-        print(f"your winnings are shs.{wining}")
-    else:
-        winings=staked * 3.00
-        print(f"your winnings are shs.{winings}")
-
-def my_league5():
-    print('man u vs brighton')
-    print(1.23,3.00,12.0)
-    winner=input("who is to win: ")
-    
-
-    if winner=='man u':
-        wining=staked * 1.23
-        print(f"your winings are shs.{wining}")   
-    elif winner=='brighton':
-        wining=staked * 12.0
-        print(f"your winnings are shs.{wining}")
-    else:
-        winings=staked * 3.00
-        print(f"your winnings are shs.{winings}")
-staked +=1
-print(staked)
+print('www.betkiwa.17625//2.com.ug')
+account=input("Do you have an account,y/n: ")
+time.sleep(1)
+print("signup below to continue")
+signup=input("\nEnter your names: ")
+contact=int(input("Mobile number: "))
+age=int(input("How old are you: "))
+if age <18:
+    print('No under age gumbling')
+else:
+    print("Bet responsively,and betting is addictive,take note..")
+time.sleep(2)
+print(f"You are very welcome {signup} to Betkiwa Uganda..")
+time.sleep(3)
+print("\n THANKS FOR CHOOSING BETKIWA,NICE TIME WITH US")   
+print("YOU ARE WELCOME TO BETKIWA COMPANY UGANDA")   
+print('\n Choose what you would like to bet about!!!')
+time.sleep(1)
+mine()

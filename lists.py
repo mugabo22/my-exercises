@@ -19,6 +19,23 @@ choice=input("Which of the above is your combination")
 if choice==1:
   print("Enter your marks below")
 
+
+class Man():
+    def __init__(self,name):
+        self.name=name
+    def ear(self):
+        print(f"{self.name} you over hear")
+class Boy(Man):
+    def __init__(self,name,age,status):
+        super().__init__(name)
+        self.age=age
+        self.status=status
+beb20=Boy('man',24,'single')
+beb20.ear()
+
+    
+
+
     
 
   
