@@ -1,15 +1,17 @@
 import matplotlib.pyplot as plt
-from scipy.ndimage import gaussianfilter as gf
+from scipy.ndimage import gaussian_filter as gf
 
-load=plt("imgs,image.jpg")
+load=plt.imread("imgs/image.jpg")
 blured=gf(load)
 
 plt.subplot(121)
-plt.imread(load)
+plt.imshow(load)
 plt.title("Original image")
 
 plt.subplot(122)
-plt.imread(blured)
+plt.imshow(blured)
 plt.title("Blured image")
+
+
 
 plt.show()
