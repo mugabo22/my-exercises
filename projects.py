@@ -1,5 +1,3 @@
-
-
 average=int(input("Whats your average: "))
 if average >80:
     print("excellent")

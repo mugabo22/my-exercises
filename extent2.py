@@ -23,12 +23,21 @@ def rug():
 def signup():
     write=input("Do u have an account?: ")
     if write=='yes':
+        name=input('Enter Username:')
+        print(f"You are very welcome {name} to Betkiwa Uganda..")
         print("\n THANKS FOR CHOOSING BETKIWA,NICE TIME WITH US")   
         print("YOU ARE WELCOME TO BETKIWA COMPANY UGANDA")   
         print('\n Choose what you would like to bet about!!!')
-        mine()
-    else:
-        pass
+    else:       
+        print("signup below to continue")
+        signer=input("\nEnter your names: ")
+        contact=int(input("Mobile number: "))
+        age=int(input("How old are you: "))
+        if age <18:
+            print('No under age gumbling')
+        else:
+            print("Bet responsively,and betting is addictive,take note..")
+        
 def premier():
     print("Choose from these matches below")
     print('1.mancity vs wolves')
@@ -474,9 +483,9 @@ def my_league():
         print("please use 1/x/2 for home draw away")
     back=input("\nAdd on more games y/n: ")
     try:
-        if back=='yes':
+        if back=='y':
             mine()
-        elif back=='no':
+        elif back=='n':
             staked(game)      
     except :
             print("please choose correctly!!")
@@ -485,26 +494,7 @@ def my_league():
                
 import time
 
-print('www.betkiwa.17625//2.com.ug')
-signup()
-account=input("Do you have an account,y/n: ")
-time.sleep(1)
-print("signup below to continue")
-signup=input("\nEnter your names: ")
-contact=int(input("Mobile number: "))
-age=int(input("How old are you: "))
-if age <18:
-    print('No under age gumbling')
-else:
-    print("Bet responsively,and betting is addictive,take note..")
-time.sleep(2)
-print(f"You are very welcome {signup} to Betkiwa Uganda..")
-time.sleep(3)
-print("\n THANKS FOR CHOOSING BETKIWA,NICE TIME WITH US")   
-print("YOU ARE WELCOME TO BETKIWA COMPANY UGANDA")   
-print('\n Choose what you would like to bet about!!!')
-time.sleep(1)
-mine()
+
 
 
 
