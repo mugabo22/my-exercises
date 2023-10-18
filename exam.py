@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter as gf
 
-load=plt.imread("imgs/image.jpg")
-blured=gf(load)
+load=plt.imread("imgs/betting_app.png")
+blured=gf(load,2)
 
 plt.subplot(121)
 plt.imshow(load)

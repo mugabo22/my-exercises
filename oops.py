@@ -38,46 +38,7 @@ class Girl(Boy):
 beb20=Girl('Messi',24,'single','football','dribble')
 beb20.cruise()
 
-#Enquing and Dequing in python
-class Queue():
-    def __init__(self):
-        self.items=[]
-    def enque(self,item):
-        self.items.append(item)
-    def deque(self):
-        if not self.is_empty():
-            return self.items.pop(0)
-        else:
-            return None
-    def is_empty(self):
-        return len(self.items)==0
-    def size(self):
-        return len(self.items)
-    
-bank=Queue()
-class Bank(Queue):
-    def __init__(self):
-        super().__init__()
-        
-queue =Queue()
-queue.enque(10)
-queue.enque(20)
-queue.enque(30)
-queue.enque(40)
-queue.enque(50)
 
-print("Current Queue:", queue.items)
-dequeued_item = queue.deque()
-print("Dequeued item:", dequeued_item)
-dequeued_item = queue.deque()
-print("Dequeued item:", dequeued_item)
-print("Updated Queue:", queue.items)
-
-#output
-#Current Queue: [10, 20, 30, 40, 50]
-#Dequeued item: 10
-#Dequeued item: 20
-#Updated Queue: [30, 40, 50]
         
         
 

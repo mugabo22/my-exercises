@@ -20,7 +20,6 @@ def search_item():
         except:
                 print("Please make a good selection of items")               
 def main():
-    item_dictionary = {}
 
     while True:
         print("\nMenu:")
